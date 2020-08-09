@@ -27,4 +27,4 @@ VUE.js = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Sc
 rrtv.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/rrtv.js,type=http-response,pattern=^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail)
 
 [MITM]
-hostname = %APPEND% *.xiaoxiao*.com, .*91.*, ios.xiangjiaoapps.com, apple.xiangjiaoapps.com, ios.fuliapps.com, *.xiangxiangapps.com, newdrugs.dxy.cn, api.termius.com, api.vuevideo.net, editorapi.115.com, api.rr.tv
+hostname = %APPEND% *.xiaoxiao*.com, .*91.*, *.lagoapps.com, newdrugs.dxy.cn, api.termius.com, api.vuevideo.net, editorapi.115.com, api.rr.tv
