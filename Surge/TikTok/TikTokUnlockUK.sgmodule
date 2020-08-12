@@ -6,7 +6,6 @@
 (?<=_region=)CN(?=&) url 307 UK
 (?<=&app_version=)17..(?=.?.?&) url 307 1
 (?<=\?version_code=)17..(?=.?.?&) url 307 1
-(.*video_id=\w{32})(.*watermark=)(.*) url 302 $1
 
 [MITM]
 hostname = %APPEND% *.tiktokv.com, *.byteoversea.com, *.musical.ly, *.snssdk.com
