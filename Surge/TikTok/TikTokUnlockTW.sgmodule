@@ -1,0 +1,11 @@
+#!name=TikTok解锁 台湾
+#!desc=解除 TikTok 区域限制 台湾 - by Licardo
+#!system=ios
+
+[URL Rewrite]
+(?<=_region=)CN(?=&) TW 307
+(?<=&app_version=)1[6-9]..(?=.?.?&) 100. 307
+(?<=\?version_code=)1[6-9]..(?=.?.?&) 100. 307
+
+[MITM]
+hostname = %APPEND% *.tiktokv.com, *.byteoversea.com, *.musical.ly, *.snssdk.com
