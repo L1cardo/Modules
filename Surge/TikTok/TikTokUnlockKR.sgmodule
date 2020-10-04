@@ -4,8 +4,9 @@
 
 [URL Rewrite]
 (?<=_region=)CN(?=&) url 307 KR
-(?<=&app_version=)1[6-9]..(?=.?.?&) url 307 1
-(?<=\?version_code=)1[6-9]..(?=.?.?&) url 307 1
+(?<=&app_version=)1[6-9]..(?=.?.?&) 100. 307
+(?<=\?version_code=)1[6-9]..(?=.?.?&) 100. 307
+^https://api[\w-]*?.tiktokv.com/aweme/v\d/policy/notice/? - reject
 
 [MITM]
 hostname = %APPEND% *.tiktokv.com, *.byteoversea.com, *.musical.ly, *.snssdk.com
