@@ -1,6 +1,5 @@
 #!name=定时任务
 #!desc=该模块用于设置定时任务 - by Licardo
-#!system=ios
 
 [Script]
 
