@@ -2,6 +2,8 @@
 #!desc=该模块用于获取Cookie - by Licardo
 
 [Script]
+# > 京东
+获取京东Cookie = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 
 # > 什么值得买
 什么值得买_获取cookie = script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.js,type=http-request,requires-body=true,pattern=^https?:\/\/zhiyou\.smzdm\.com\/user$
@@ -22,4 +24,4 @@ V2EX = type=http-request,pattern=^https:\/\/www\.v2ex\.com\/mission\/daily,scrip
 WPS = type=http-request,pattern=^https:\/\/zt.wps.cn\/2018\/docer_check_in\/api\/act_list,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.cookie.js
 
 [MITM]
-hostname = %APPEND% zhiyou.smzdm.com,c.tieba.baidu.com,m.client.10010.com,h5.ele.me,*.v2ex.com,zt.wps.cn
+hostname = %APPEND% api.m.jd.com,zhiyou.smzdm.com,c.tieba.baidu.com,m.client.10010.com,h5.ele.me,*.v2ex.com,zt.wps.cn
