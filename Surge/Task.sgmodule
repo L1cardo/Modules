@@ -3,6 +3,7 @@
 
 [Script]
 # > 什么值得买
+什么值得买_每日签到 = type=cron,cronexp=0 0 10 * * *,timeout=120,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.js
 什么值得买_每日任务 = type=cron,cronexp=0 0 10 * * *,timeout=120,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_mission.js
 
 # > 百度贴吧
@@ -14,6 +15,9 @@
 # > 饿了么
 饿了么_领取吃货豆 = type=cron,cronexp=0 0 10 * * *,timeout=60,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js
 饿了么_领取任务 = type=cron,cronexp=0 0 10 * * *,timeout=60,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_mission.js
+
+# > 滴滴出行
+滴滴出行_每日签到 = type=cron,cronexp=0 0 10 * * *,timeout=120,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js
 
 # > V2EX
 V2EX = type=cron,cronexp=0 0 10 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/v2ex.js
